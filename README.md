@@ -6,7 +6,6 @@
 
 ElderSafe is a deep-learning-powered computer vision system designed to identify human postures and detect potential falls, with the goal of improving safety monitoring for elderly individuals living independently.
 I developed and evaluated multiple neural network architectures to classify human posture from indoor images, distinguishing between standing, sitting, lying, and fallen positions. The project explores how artificial intelligence can support early detection of potentially dangerous situations while addressing challenges such as environmental variation, camera positioning, and model generalization.
-Beyond achieving high classification accuracy, ElderSafe focuses on evaluating model robustness and understanding how dataset characteristics influence performance in real-world environments.
 
 ## Key Features & Implementation
 
@@ -42,7 +41,7 @@ Implemented and compared multiple neural network architectures to evaluate their
 - **Techniques:** Transfer Learning, Image Preprocessing, Supervised Learning, Model Fine-Tuning
 - **Evaluation:** Accuracy, Precision, Recall, Confusion Matrix, Threshold Analysis
 
-## Key Result
+## Key Results
 The optimized ResNet18 model achieved 99.46% accuracy on the project's internal test dataset, demonstrating the effectiveness of transfer learning for posture-based classification.
 However, testing with independently staged images revealed important generalization challenges. Differences in camera angles, backgrounds, and dataset sources influenced model reliability, emphasizing the importance of evaluating AI systems beyond controlled test conditions.
 This project strengthened my understanding of deep learning architecture selection, computer vision pipelines, transfer learning, model evaluation, and the challenges of developing reliable AI systems for safety-critical applications.
